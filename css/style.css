@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+}
+
+
+.header-index {
+    background-image: url('../img/fondo-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 15px;
+}
+
+.logo a {
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    margin: 0 30px;
+}
+
+.menu ul{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 5px 15px;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cont-header {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cont-header h1 {
+    font-size: 3.7em;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+.cont-header p {
+    color: white;
+    margin: 30px 0 50px;
+    font-size: 1.5em;
+
+}
+
+.boton {
+    background-color: #f48847;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.generaciones {
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.titulo_generacion {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_generacion h2 {
+    font-size: 2em;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin: auto 40px;
+}
+
+.desc_generacion {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc_generacion p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 0.9em;
+    line-height: 30px;
+    padding: 0 60px;
+}
+
+.img_index_separacion_testimonio {
+    background-image: url(../img/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.testimonios {
+    text-align: center;
+    margin: 15px;
+}
+
+.titulo_testimonio h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.6em;
+    font-weight: 300;
+}
+
+.testimonios_clientes {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimonios_indi {
+    display: inline;
+    padding: 20px;
+}
+
+.testimonios_indi p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.nombre_testimonio p {
+    font-weight: 500;
+}
+
+.img_index_separacion_footer {
+    background-image: url(../img/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.consulta {
+    background-color: #282d30;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.consulta h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.9em;
+    color: white;
+}
+
+.consulta p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: white;
+    margin: 30px 0 50px;
+}
+
+footer {
+    background-color: #e9ceb0;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+footer p {
+    margin: 20px;
+}
+
+.redes_sociales ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes_sociales ul li {
+    list-style: none;
+    margin-right: 15px;
+    padding-right: 20px;
+}
+
+.redes_sociales img {
+    width: 30px;
+}
