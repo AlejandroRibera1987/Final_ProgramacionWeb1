@@ -175,7 +175,7 @@
 
 .consulta {
     background-color: #282d30;
-    height: 200px;
+    height: auto;
     text-align: center;
     padding: 50px;
 }
