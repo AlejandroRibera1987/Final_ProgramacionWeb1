@@ -1,3 +1,36 @@
 @media screen and (max-width: 769px) { 
+    .menu {
+        display: none;
+    }
 
+    .menu_hamburguesa {
+        display: block;
+        width: 50px;
+        margin: 20px 0;
+    }
+
+    .menu-responsive {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .header-index-fondo {
+        height: 450px;
+    }
+
+    .cont-header h1 {
+        font-size: 2em;
+    }
+
+    .testimonios_clientes {
+        display: block;
+    }
+
+    .testimonios_indi {
+        width: 90%;
+        margin: auto;
+    }
 }
