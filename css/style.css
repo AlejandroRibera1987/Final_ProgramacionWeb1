@@ -16,15 +16,14 @@ main {
     font-family: 'Roboto Mono', monospace;
 }
 
-.menu_chek {
+.menu_check {
     display: none;
 }
-
 
 .menu_hamburguesa {
     display: none;
+    cursor: pointer;
 }
-
 
 .header-index-fondo {
     background-image: url('../img/fondo-header.jpg');

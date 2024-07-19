@@ -1,24 +1,55 @@
 @media screen and (max-width: 769px) { 
    
    /*Menu Hamburguesa*/
-    .menu {
-        display: none;
+   
+   .menu_hamburguesa {
+       display: block;
+       width: 40px;
+       margin: 20px 0;
     }
-
-    .menu_hamburguesa {
-        display: block;
-        width: 50px;
-        margin: 20px 0;
-    }
-
+    
     .menu-responsive {
         display: flex;
+        flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
         width: 90%;
         margin: auto;
     }
-    
+
+    .menu {
+        display: none;
+    }
+
+    .menu_check:checked + .menu {
+        display: block;
+        width: 80%;
+        margin: auto;
+        position: absolute;
+    }
+     
+    .menu ul {
+        display: flex;
+        position: absolute;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto;
+        border-radius: 50px;
+        background-color: #e9ceb0;
+    }
+
+    .menu ul li {
+        margin: 30px;
+        width: 90%;
+    }
+
+    .menu ul li a {
+        color: black;
+    }
+
     /*Index*/
 
     .cont-header h1 {
