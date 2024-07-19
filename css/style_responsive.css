@@ -1,4 +1,6 @@
 @media screen and (max-width: 769px) { 
+   
+   /*Menu Hamburguesa*/
     .menu {
         display: none;
     }
@@ -17,6 +19,8 @@
         margin: auto;
     }
     
+    /*Index*/
+
     .cont-header h1 {
         font-size: 2em;
     }
@@ -33,9 +37,32 @@
     .generaciones {
         padding: 50px 0;
     }
+
+    /*Servicios*/
+
+    .servicios {
+        display: block;
+    }
+
+    .cards_servicios {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .texto_separacion_servicios {
+        width: 90%;
+    }
+
+    .texto_separacion_servicios p {
+        text-align: start;
+    }
+
 }
 
 @media screen and (max-width: 456px) {
+    
+    /*Index*/
+
     .generaciones {
         display: block;
         padding: 50px 0;
@@ -52,4 +79,5 @@
         width: 100%;
         padding-top: 15px;
     }
+
 }
