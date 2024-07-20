@@ -27,7 +27,7 @@
         margin: auto;
         position: absolute;
     }
-     
+
     .menu ul {
         display: flex;
         position: absolute;
@@ -37,13 +37,14 @@
         flex-direction: column;
         align-items: center;
         margin: 30px auto;
-        border-radius: 50px;
+        border-radius: 30px;
         background-color: #e9ceb0;
     }
 
     .menu ul li {
         margin: 30px;
         width: 90%;
+        border-bottom: 2px solid black;
     }
 
     .menu ul li a {
@@ -111,4 +112,7 @@
         padding-top: 15px;
     }
 
+    .menu ul {
+        width: 40%;
+    }
 }

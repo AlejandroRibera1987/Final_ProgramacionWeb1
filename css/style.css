@@ -336,3 +336,27 @@ footer p {
     margin: auto;
     border-radius: 10px;
 }
+
+/*Galeria*/
+
+.galeria {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.galeria_central {
+    
+}
+
+.cards_galeria {
+    border: 3px solid gray;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 15px;
+}
+
+.cards_galeria img {
+    width: 80%;
+}
