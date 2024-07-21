@@ -341,12 +341,13 @@ footer p {
 
 .galeria {
     padding: 15px;
+    width: 90%;
     margin: auto;
 }
 
 .fila {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .columna_1_3 {
@@ -355,6 +356,10 @@ footer p {
 
 .columna_2_3 {
     width: 66.67%;
+}
+
+.columna_1_2 {
+    width: 50%;
 }
 
 .img_chica {
@@ -377,11 +382,10 @@ footer p {
     height: 100%;
 }
 
-.img_larga img{
+.img_larga img {
+    width: 100%;
     height: 310px;
+    margin: 10px 0;
 }
 
-.img_grande img {
-    width: 100%;
-    height: 100%;
-}
+

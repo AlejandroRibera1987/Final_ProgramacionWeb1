@@ -122,7 +122,7 @@
         display: block;
     }
     
-    .columna_1_3, .columna_2_3 {
+    .columna_1_3, .columna_2_3, .columna_1_2 {
         width: 100%;
     }
 }
