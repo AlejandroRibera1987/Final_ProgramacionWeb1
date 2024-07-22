@@ -395,58 +395,120 @@ footer p {
 
 .contacto_form {
     display: flex;
+    flex-direction: row-reverse;
     padding: 30px;
-    justify-content: space-around;
 } 
 
 .texto_contacto {
-    width: 40%;
+    width: 50%;
     padding: 30px;
 }
 
 .texto_contacto p {
     font-size: 1.5em;
     font-weight: 300;
+    line-height: 40px;
 }
 
 .contacto_form form {
+    width: 30%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: start;
 }
 
 .contacto_form form h2 {
     font-size: 2em;
     margin-bottom: 10px;
+    margin: 0 auto;
     text-align: center;
     border-bottom: 2px solid black;
 }
 
-.nombre_form label {
+.font_form {
     font-size: 1.2em;
     font-weight: 200;
 }
 
-.nombre_form input {
-    width: 230px;
+.fila_form {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nombre_form, .apellido_form, .telefono_form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+input {
     height: 20px;
-    color: gray;
-}
-
-.email_form label {
-    font-size: 1.2em;
-    font-weight: 200;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #dbdbdb;
 }
 
 span {
     color: red;
+}
+
+.img_form span {
+    font-size: 0.7em;
+    color: black;
+}
+
+.email_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo_consulta select {
+    height: 28px;
+    font-size: 1.1em;
+    border: none;
+    background-color: #dbdbdb;
+    border-bottom: 2px solid black;
+}
+
+.img_form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.img_form input {
+    border-bottom: none;
+    width: 70%;
+    margin: auto;
+}
+
+.mensaje_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mensaje_form textarea {
+    height: 150px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+}
+
+.btn_form {
+    text-align: center;
+}
+
+.btn_form a {
+    text-decoration: none;
+    background-color: #F48847;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.5em;
     font-weight: 700;
+    color: white;
+    box-shadow: 3px 3px 3px gray;
 }
-
-.email_form input {
-    width: 470px;
-    height: 20px;
-    color: gray;
-}
-
