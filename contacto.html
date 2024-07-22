@@ -35,51 +35,52 @@
             </nav>
         </div>
             <div class="cont-header">
-                <h1 class="font_titulos">Galeria de nuestros trabajos</h1>
+                <h1 class="font_titulos">Contactenos para cualquier Trabajo</h1>
+
             </div>
     </header>
 
     <main>
-        <div class="galeria">
-            <div class="fila">
-                <div class="columna_1_3">
-                    <div class="img_chica">
-                        <img src="img/img13.jpg" alt="Foto de Trabajo en Cocina">
-                    </div>
-                    <div class="img_chica">
-                        <img src="img/img16.jpg" alt="foto de mueble antiguo">
-                    </div>
-                </div> 
-                <div class="columna_2_3">
-                    <div class="img_mediana">
-                        <img src="img/img15.jpg" alt="Foto del Taller trabajando">
-                    </div>
-                </div>   
+        <div class="contacto_form">
+            <div class="texto_contacto">
+                <p class="font_textos">¿Listo para dar vida a tu proyecto? ¡Estamos aquí para ayudarte! Ponte en contacto con nosotros para cualquier consulta o para solicitar nuestros servicios de restauración, asesoramiento o fabricación. Estamos comprometidos con ofrecerte soluciones personalizadas y resultados excepcionales. Esperamos escucharte pronto.</p>
             </div>
-            <div class="fila">
-                <div class="columna_2_3">
-                    <div class="fila">
-                        <div class="columna_1_2">
-                            <div class="img_larga">
-                                <img src="img/img14.jpg" alt="Foto de Comoda Resturada">
-                            </div>
-                        </div>
-                        <div class="columna_1_2">
-                            <div class="img_chica">
-                                <img src="img/img19.jpg" alt="Foto de herramientas Carpinteria">
-                            </div>
-                            <div class="img_chica">
-                                <img src="img/img18.jpg" alt="foto de trabajos de madera">
-                            </div>
-                        </div>
-                    </div>
+            <form action="contacto.html" method="get">
+                <h2 class="font_titulos">Contactenos</h2>
+                <div class="nombre_form margin_form">
+                    <label for="nombre" class="font_textos font_form">Nombre:</label>
+                    <input type="text" id="nombre" value="Nombre">
+                    <input type="text" value="Apellido">
                 </div>
-                <div class="columna_1_3">
-                    <div class="img_larga">
-                        <img src="img/img17.jpg" alt="foto de muebles de exterior">
-                    </div>
+                <div class="mail_form margin_form">
+                    <label for="email" class="font_textos font_form">Email: <span>*</span></label>
+                    <input type="email" value="Ej: ejemplo@mail.com.ar" required>
                 </div>
-            </div>
+                <div class="telefono_form margin_form">
+                    <label for="telefono" class="font_textos font_form">Telefono:<span>*</span></label>
+                    <input type="number" required>
+                </div>
+                <div class="tipo_mensaje_form margin_form">
+                    <label for="tipo_consulta" class="font_textos font_form">Tipo de Consulta:</label>
+                    <select name="consulta" id="tipo_consulta margin_form">
+                        <option value="Elija una Opcion">Elija una Opcion</option>
+                        <option value="Restauracion">Restauracion</option>
+                        <option value="Diseño">Diseño</option>
+                        <option value="Asesoremineto">Asesoramiento</option>
+                    </select>
+                </div>
+                <div class="img_form margin_form">
+                    <label for="foto" class="font_textos font_form">Imagen <span>(Si corresponde)</span></label>
+                    <input type="file" id="foto">
+                </div>
+                <div class="texto_form margin_form">
+                    <label for="mensaje" class="font_textos font_form">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                </div>
+                <div class="btn_form">
+                    <input type="button" value="Enviar">
+                </div>
+            </form>
         </div>
     </main>
 

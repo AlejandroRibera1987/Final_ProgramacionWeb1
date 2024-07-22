@@ -29,7 +29,8 @@ main {
     background-image: url('../img/fondo-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: initial;
+    background-attachment: fixed;
     height: auto;
     padding-bottom: 40px;
 }
@@ -80,7 +81,7 @@ main {
 
 .cont-header p {
     color: white;
-    margin: 30px 0 50px;
+    margin: 30px 0;
     font-size: 1.5em;
 }
 
@@ -239,6 +240,7 @@ footer p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     height: auto;
     padding-bottom: 40px;
 }
@@ -389,3 +391,54 @@ footer p {
 }
 
 
+/*Contactos*/
+
+.contacto_form {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+} 
+
+.texto_contacto {
+    width: 40%;
+    padding: 30px;
+}
+
+.texto_contacto p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.contacto_form form h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.contacto_form form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.margin_form {
+    margin: 10px 0;
+}
+
+.font_form {
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+.nombre_form input {
+    width: 200px;
+    height: 20px;
+    color: gray;
+    border-radius: 5px;
+}
+
+.mail_form {
+    background-color: red;
+}
