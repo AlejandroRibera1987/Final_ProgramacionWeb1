@@ -512,3 +512,53 @@ span {
     color: white;
     box-shadow: 3px 3px 3px gray;
 }
+
+.sucursal {
+    text-align: center;
+    padding: 5px 0 20px 0;
+    border-top: 3px solid black;
+    width: 90%;
+    margin: auto;
+}
+
+.sucursal h2 {
+    font-size: 2.5em;
+    font-weight: 200;
+    margin: 10px auto;
+}
+
+.sucursal_map {
+    display: flex;
+    width: ;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.direccion {
+    width: 20%;
+    text-align: start;
+}
+
+.mapa {
+    width: 70%;
+}
+
+iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0;
+}
+
+.direccion h2 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    border-bottom: 2px solid gray;
+}
+
+.direccion p {
+    font-size: 1.2em;
+}

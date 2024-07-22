@@ -94,6 +94,27 @@
     .contacto_form {
         flex-direction: column-reverse;
     }
+
+    .texto_contacto {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .sucursal_map {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .direccion {
+        width: 80%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mapa {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 456px) {
