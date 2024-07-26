@@ -257,7 +257,7 @@ footer p {
 }
 
 .img_nosotros {
-    background-image: url('../img/img5.jpg');
+    background-image: url(../img/img5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -275,7 +275,7 @@ footer p {
 /* Servicios */
 
 .separacion_servicios {
-    background-image: url('../img/img4.jpg');
+    background-image: url(../img/img4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
