@@ -236,7 +236,7 @@ footer p {
 /* Nosotros */
 
 .header-nosotros {
-    background-image: url('../img/fondo-sections.jpg');
+    background-image: url(../img/fondo-sections.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
