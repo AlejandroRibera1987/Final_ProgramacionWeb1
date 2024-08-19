@@ -1,11 +1,11 @@
 @media screen and (max-width: 769px) { 
-   
-   /*Menu Hamburguesa*/
-   
-   .menu_hamburguesa {
-       display: block;
-       width: 40px;
-       margin: 20px 0;
+    
+    /*Menu Hamburguesa*/
+    
+    .menu_hamburguesa {
+        display: block;
+        width: 40px;
+        margin: 20px 0;
     }
     
     .menu-responsive {
